@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+*{ border: 0;
+}
+body{
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+}
+.bar{
+    width:100%;
+    height:100px;
+    background-color:black;
+
+
+}
+.bar-content{
+    display:flex;
+    align-items:center;
+    background-color: black;
+    padding: 0 50px;
+    height: 100%;
+}
+.logo{
+    flex: 10; 
+}
+.logoname{
+    color: red;
+    font-size: 30px;
+
+}
+
+
+
+.btn btn-danger{
+    justify-content: flex-end;
+    
+}
+
+
+
+.movie-container{
+    display: flex;
+    width: 600px;
+    justify-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+.movie{
+    justify-content: center;
+}
+.modal-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 11;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.modal{
+    position: relative;
+    width: 60vw;
+    height: 40vh;
+    background-color: azure;
+    padding: 1rem;
+    border-radius: 5px;
+
+}
+.modal-info{
+    position: relative;
+    top: 15%;
+    padding:1rem ;
+    margin: 1rem;
+
+}
+.close{
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+}
+.modal-container.show{
+    display: flex;
+
+}
+.modal-container.hide{
+    display: none;
+
+}
+.searchmoviebar{
+    width: 30vm;
+    justify-items: center;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>fe_moviesearch</title>
+</head>
+
+<body>
+    <div class="modal-container">
+        <div class="modal">
+            <span class="close">&times</span>
+            <div class="modal-info">
+                <h1 class="movie-title">Mario
+                </h1>
+                <p class="movie-detail">While working underground to fix a water main, Brooklyn plumbers—and
+                    brothers—Mario and Luigi are transported down a mysterious pipe and wander into a magical new world.
+                    But when the brothers are separated, Mario embarks on an epic quest to find Luigi </p>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="bar">
+            <div class="bar-content">
+                <div class="logo">
+                    <div class="logoname">Kakaoflix</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <h2 class="searchmoviebar">
+            <form id="form">
+                <input type="text" class="searchinput" placeholder="영화를 검색하세요" data-search />
+                <button type="button" id="search" class="search">검색</button>
+            </form>
+        </h2>
+        <div class="searchcards" data-use-container></div>
+
+        <template data-use-template>
+            <div class="card">
+                <img data-image />
+                <div class="card-body"></div>
+                <span class="card-title" data-title></span>
+                <span class="card-text" data-rate></span>
+                <span class="card-text" data-date></span>
+            </div>
+        </template>
+
+        <div class="movie-container">
+            <div class="movie">
+                <input type="hidden">
+                <img src="https://image.tmdb.org/t/p/w500/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg" class="card-img-top"
+                    alt="...">
+                <div class="content">
+                    <div><span class="movie-title">The Super Mario Bros. Movie</span></div>
+                    <div><span class="vote-average">7.5</span></div>
+                    <div><span class="release-date">2023-04-05
+                        </span></div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+
+
+    </footer>
+    <script src="Movie.js"></script>
+
+</body>
+
+</html>
