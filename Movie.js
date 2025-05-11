@@ -1,4 +1,4 @@
-const API_KEY = '967cafcfac3e79ea7637fde9fb318be3';
+const API_KEY = 'myapikey';
 const API_URL = 'https://api.themoviedb.org/3/movie/popular?';
 const IMG_URL = 'https://image.tmdb.org/t/p/w500';
 
